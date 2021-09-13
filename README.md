@@ -1,4 +1,17 @@
-# My SQL in Docker
+# My SQL 
+
+## Login
+
+```
+mysql -uroot -p
+```
+
+it asks for password, provide password and enter
+
+
+----
+
+# Dockerized Container for Mysql
 
 ## Pull the latest mysql server
 ```
@@ -63,9 +76,10 @@ Exit mysql
 \q
 
 
-=======
-LOGS
-=======
+----
+
+# LOGS
+
 Last login: Tue Sep  7 12:51:15 on ttys001
 LM-SJC-11009966:~ pmalyalavenkatad$ docker pull mysql/mysql-server:latest
 latest: Pulling from mysql/mysql-server
