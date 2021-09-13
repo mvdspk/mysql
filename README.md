@@ -80,6 +80,7 @@ Exit mysql
 
 # LOGS
 
+```
 Last login: Tue Sep  7 12:51:15 on ttys001
 LM-SJC-11009966:~ pmalyalavenkatad$ docker pull mysql/mysql-server:latest
 latest: Pulling from mysql/mysql-server
@@ -178,7 +179,7 @@ mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY '5Uperm@n'
 Query OK, 0 rows affected (0.01 sec)
 
 mysql> 
-
+```
 
 
       
