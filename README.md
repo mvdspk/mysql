@@ -1,5 +1,6 @@
-My SQL in Docker
+# My SQL in Docker
 
+## Pull the latest mysql server
 Docker pull mysql/mysql-server:latest
 
 Docker images to view inmages in the system
@@ -7,7 +8,7 @@ Docker images to view inmages in the system
 
 
 
-Run the image
+## Run the image
 
 Customizable - port number, name
 
