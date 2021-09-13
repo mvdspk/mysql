@@ -1,7 +1,9 @@
 # My SQL in Docker
 
 ## Pull the latest mysql server
-Docker pull mysql/mysql-server:latest
+```
+docker pull mysql/mysql-server:latest
+```
 
 Docker images to view inmages in the system
 
@@ -13,11 +15,13 @@ Docker images to view inmages in the system
 Customizable - port number, name
 
 
-Docker run -p 3306:3306 -d --name=mysql mysql/mysql-server:latest
+```
+docker run -p 3306:3306 -d --name=mysql mysql/mysql-server:latest
+```
 
 
-
-List running containers docker ps
+## List running containers 
+```docker ps```
 
 See the logs of mysql
 Docker logs mysql
