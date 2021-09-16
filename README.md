@@ -40,6 +40,16 @@ check for previliges on a user
 SHOW GRANTS FOR 'auser'@'localjost';
 ```
 
+### change the host on the user
+
+```mysql
+update mysql.user set host = '%' where user='root';
+```
+
+if running on docker container , restart the container
+
+Connect to Workbench [Optional]
+
 ----
 
 # Dockerized Container
